@@ -1,0 +1,44 @@
+[
+    {
+        "code": "w001",
+        "name": "PSC Pet Social Club",
+        "type": "Full-stack MERN Web application",
+        "created": "2022-07-01",
+        "technologies": ["JavaScript", "HTTP", "MongoDB", "express", "React", "node.js", "mongoose", "Axios"],
+        "description": "PSC is an application in which users and their pets connect with pet sitters on customized time windows.",
+        "images": ["PSC_Homepage.jpg", "JPEG"],
+        "comments": "Best practices with CRUD operations, REST API, cookies, session and authentication. Mobile first responsive. Deployment on Heroku and Netlify.",
+        "credits": "Developed together with Wenyi LU and Sebastian Marambio, as the final project in our Full Stack Web Development Bootcamp at Ironhack.",
+        "github": "https://github.com/WenyiLULU/PSC_Front",
+        "linkSite": "https://petsocialclub.netlify.app/",
+        "linkBlog": "#"
+    },
+    {
+        "code": "w002",
+        "name": "PlantApp",
+        "type": "Server-side Rendering Web application",
+        "created": "2022-06-10",
+        "technologies": ["JavaScript", "node.js", "HTTP", "express", "ejs", "MongoDB", "mongoose"],
+        "description": "PlantApp makes it easier to take care of your personal garden and set automatic reminders to water each plant.",
+        "images": ["PlantApp_Homepage.jpg", "JPEG"],
+        "comments": "Best practices with CRUD basic operations, cookies management, session creation and authentication. Deployment on Heroku.",
+        "credits": "Developed together with Eric Company, as the backend project in our Full Stack Web Development Bootcamp at Ironhack.",
+        "github": "https://github.com/estebanba/ironhack-backend-project",
+        "linkSite": "https://plantappiron.herokuapp.com/",
+        "linkBlog": "#"
+    },
+    {
+        "code": "w003",
+        "name": "The Museum Visitor",
+        "type": "Game written in JavaScript and HTML5 (Canvas)",
+        "created": "2022-05-20",
+        "technologies": ["JavaScript", "HTTP", "CSS"],
+        "description": "The Museum Visitor is a snake-like game in which you must check out art pieces without getting caught.",
+        "images": ["Museum_Visitor_Homepage.jpg", "JPEG"],
+        "comments": "Best practices with DOM manipulation, Canvas, functions and classes in JS. Deployment on GitHub Pages.",
+        "credits": "",
+        "github": "https://github.com/estebanba/the-museum-visitor",
+        "linkSite": "https://estebanba.github.io/the-museum-visitor/",
+        "linkBlog": "#"
+    }
+]
