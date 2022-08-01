@@ -2,12 +2,14 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <div id="splash">
-      <h1>Hi, I'm Esteban</h1>
-      <p>
-        Welcome to my personal site, where I share my work in the intersection
-        between architecture and web development
-      </p>
+    <div id="hero">
+      <div>
+        <h1>Hi, I'm Esteban</h1>
+        <p className="brand">
+          Welcome to my personal site,<br></br> where I share my work in the
+          intersection <br></br> between architecture and web development
+        </p>
+      </div>
     </div>
   );
 };

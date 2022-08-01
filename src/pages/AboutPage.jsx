@@ -5,18 +5,7 @@ const AboutPage = () => {
     <div id="about">
       <h2>About me</h2>
       <div className="hScroll">
-        <div className="scrollCard">
-          <p>
-            I`m a Full Stack Web Developer with a sensibility for human-centred
-            design, user experience and multidisciplinarity as key values to
-            create meaningful and impactful products.
-          </p>
-          <p>
-            I am also an Architect sharing my passion about technology,
-            digitalization and data driven design, which I believe are essential
-            to bring the built environment to the 21th century.
-          </p>
-        </div>
+        <div className="scrollCard"></div>
         <div className="scrollCard">
           <p>
             In my first 3 years of professional practice I have worked side by

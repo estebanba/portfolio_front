@@ -1,12 +1,23 @@
 import React from "react";
+import AboutSection from "../components/AboutSection";
 import HeroSection from "../components/HeroSection";
 import WorkSection from "../components/WorkSection.jsx";
 
 const HomePage = () => {
   return (
-    <div>
-      <HeroSection />
-      <WorkSection />
+    <div className="scroller">
+      <section>
+        <HeroSection />
+      </section>
+      <hr></hr>
+      <section>
+        <WorkSection />
+      </section>
+      <hr></hr>
+      <section>
+        <AboutSection />
+      </section>
+      <hr></hr>
     </div>
   );
 };

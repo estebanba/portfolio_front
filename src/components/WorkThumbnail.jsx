@@ -1,16 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const WorkThumbnail = ({ project }) => {
   return (
-    <div className="scrollCard">
-      <h3>{project.name}</h3>
-      <h4>{project.type}</h4>
-      <img
-        className="cardImg"
-        src={require(`../assets/images/${project.images[0]}`)}
-        alt={project.images[0]}
-      />
-    </div>
+    <Link className="noDecoration" to={`/work#${project.code}`}>
+      <div className="scrollCard">
+        <h3>{project.name}</h3>
+        <p>{project.type}</p>
+        <img
+          src={require(`../assets/images/${project.images[0]}`)}
+          alt={project.images[0]}
+        />
+      </div>
+    </Link>
   );
 };
 
