@@ -7,19 +7,19 @@ const WorkCard = ({ project }) => {
       <hr></hr>
       <h4>{project.type}</h4>
 
-      <div>
+      <div className="cardLine">
         {project.technologies &&
           project.technologies.map((technology) => (
             <span className="chip">{technology}</span>
           ))}
       </div>
-      <p>{project.description}</p>
+      <p className="cardLine">{project.description}</p>
       <img
         src={require(`../assets/images/${project.images[0]}`)}
         alt={project.images[0]}
       />
-      <p>{project.comments}</p>
-      <p>{project.credits}</p>
+      <p className="cardLine">{project.comments}</p>
+      <p className="cardLine">{project.credits}</p>
       <hr></hr>
       <div className="linksBar RightSmall">
         <a href={project.github} target="_blank" rel="noreferrer">

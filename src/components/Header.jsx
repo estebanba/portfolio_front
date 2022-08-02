@@ -4,7 +4,7 @@ import { HashLink, NavHashLink } from "react-router-hash-link";
 
 const Header = () => {
   return (
-    <div className="fixed">
+    <div id="headerSection">
       <header>
         <div>
           <ul>
@@ -30,7 +30,15 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav">
-              <Link to="/about">Contact</Link>
+              <HashLink
+                smooth
+                to={{
+                  hash: "#contact",
+                  pathname: "/",
+                }}
+              >
+                Contact
+              </HashLink>
             </li>
           </ul>
         </div>

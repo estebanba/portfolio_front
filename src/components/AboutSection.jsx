@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 
 const AboutSection = () => {
   return (
-    <div id="aboutSection">
+    <div id="about">
       <h2>ABOUT ME</h2>
-      <div>
+      <div className="sectionContent">
         <p>
-          I`m a Full Stack Web Developer with a sensibility for human-centred
-          design, user experience and multidisciplinarity as key values to
-          create meaningful and impactful products.
+          I'm a developer, designer and architect I`m a Full Stack Web Developer
+          with a sensibility for human-centred design, user experience and
+          multidisciplinarity as key values to create meaningful and impactful
+          products.
         </p>
         <p>
           I am also an Architect sharing my passion about technology,

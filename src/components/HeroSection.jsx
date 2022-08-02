@@ -4,10 +4,10 @@ const HeroSection = () => {
   return (
     <div id="hero">
       <div>
-        <h1>Hi, I'm Esteban</h1>
+        <h1>Esteban Basili</h1>
         <p className="brand">
-          Welcome to my personal site,<br></br> where I share my work in the
-          intersection <br></br> between architecture and web development
+          Web Development, Design <br></br>
+          Architecture, Building Information Modeling
         </p>
       </div>
     </div>

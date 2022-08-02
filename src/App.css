@@ -5,18 +5,25 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  margin: 0 20px 0;
 }
 
 body::-webkit-scrollbar {
   display: none;
 }
 
-.scroller {
+#pageContainer {
+  position: relative;
+  min-height: 100vh;
+  padding: 0 20px 0;
+  margin: 0 auto 0;
+  max-width: 1200px;
+}
+
+/* .scroller {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-}
+} */
 
 .scroller section {
   scroll-snap-align: start;
@@ -28,10 +35,10 @@ hr {
 
 /* HEADER */
 
-.fixed {
-  align-items: center;
-  position: fixed;
-  width: calc(100% - 40px)
+#headerSection {
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 header {
@@ -53,7 +60,7 @@ header ul .nav {
 }
 
 main {
-  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -101,14 +108,24 @@ a:hover, a:active{
   position: absolute;
   right: 10px;
   top: 55%;
-  z-index: 100;
 }
 
 .leftFloat {
   position: absolute;
   left: 10px;
   top: 55%;
-  z-index: 100;
+}
+
+.sectionContent {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.contentBox {
+  width: 450px;
 }
 
 /* HERO SECTION */
@@ -122,6 +139,7 @@ a:hover, a:active{
 
 p.brand {
   font-size: 3.5rem;
+  margin: 0 0;
 }
 
 @media screen and (max-width: 500px){
@@ -133,19 +151,21 @@ p.brand {
   p.brand {
     font-size: 2rem;
   }
+  #footerSection {
+    display: none;
+  }
 }
 
 /* WORK SECTION (CAROUSEL) */
 
-#workSection {
+/* #workSection {
   height: 100vh;
-}
+} */
 
 #workScroll {
   display: flex;
   overflow-x: scroll;
   gap: 20px;
-  z-index: 50;
 }
 
 #workScroll::-webkit-scrollbar {
@@ -173,6 +193,10 @@ p.brand {
   min-width: 300px;
 }
 
+.cardLine {
+  height: 50px;
+}
+
 .chip {
   display: inline-block;
   background: rgb(236, 236, 236);
@@ -190,7 +214,6 @@ p.brand {
 
 .linksBar {
   display: flex;
-  
 }
 
 .linksBar a {
@@ -198,6 +221,49 @@ p.brand {
 }
 
 /* ABOUT SECTION */
-#aboutSection {
-  height: 100vh;
+
+#about {
+  min-height: 300px;
+}
+
+
+/* CONTACT SECTION */
+
+#contact {
+  min-height: 300px;
+}
+
+address {
+  font-style: inherit;
+  text-decoration: inherit;
+}
+
+address a {
+  color: inherit;
+}
+
+/* FOOTER */
+
+#footerSection {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 40px);
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+footer ul {
+  list-style: none;
+  padding-inline-start: 0;
+  display: flex;
+  justify-content: end;
+}
+
+footer ul .nav {
+  margin-left: 10px;
 }
