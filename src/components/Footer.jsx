@@ -8,7 +8,7 @@ const Footer = () => {
       <footer>
         <div>
           <ul>
-            <li>© 2022-present. Esteban Basili. All Rights Reserved</li>
+            <li>© 2022-present. Esteban Basili.</li>
           </ul>
         </div>
         <div className="footerRight">
@@ -17,18 +17,31 @@ const Footer = () => {
               <Link to="/about">me@estebanbasili.com</Link>
             </li>
             <li className="nav">
-              <Link
-                smooth
-                to={{
-                  hash: "#work",
-                  pathname: "/work",
-                }}
+              <a
+                href="https://www.linkedin.com/in/estebanbasili/"
+                target="_blank"
+                rel="noreferrer"
               >
                 LinkedIn
-              </Link>
+              </a>
             </li>
             <li className="nav">
-              <Link to="/about">GitHub</Link>
+              <a
+                href="https://www.instagram.com/estebanbasili"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </li>
+            <li className="nav">
+              <a
+                href="https://github.com/estebanba"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
             </li>
           </ul>
         </div>

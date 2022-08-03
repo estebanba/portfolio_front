@@ -9,9 +9,9 @@ const HomePage = () => {
     <div className="scroller">
       <HeroSection />
       <hr></hr>
-      <WorkSection />
-      <hr></hr>
       <AboutSection />
+      <hr></hr>
+      <WorkSection />
       <hr></hr>
       <ContactSection />
     </div>

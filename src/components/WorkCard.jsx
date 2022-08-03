@@ -13,13 +13,13 @@ const WorkCard = ({ project }) => {
             <span className="chip">{technology}</span>
           ))}
       </div>
-      <p className="cardLine">{project.description}</p>
+      <p className="cardLineDouble">{project.description}</p>
       <img
         src={require(`../assets/images/${project.images[0]}`)}
         alt={project.images[0]}
       />
-      <p className="cardLine">{project.comments}</p>
-      <p className="cardLine">{project.credits}</p>
+      <p className="cardLineDouble">{project.comments}</p>
+      <p className="cardLineDouble">{project.credits}</p>
       <hr></hr>
       <div className="linksBar RightSmall">
         <a href={project.github} target="_blank" rel="noreferrer">

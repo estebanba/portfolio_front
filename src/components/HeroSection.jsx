@@ -1,4 +1,5 @@
 import React from "react";
+import ArrowDown from "./ArrowDown";
 
 const HeroSection = () => {
   return (
@@ -6,9 +7,12 @@ const HeroSection = () => {
       <div>
         <h1>Esteban Basili</h1>
         <p className="brand">
-          Web Development, Design <br></br>
-          Architecture, Building Information Modeling
+          I'm a creative developer and designer with a background in
+          Architecture and Building Information Modeling. Let's build together!
         </p>
+      </div>
+      <div className="centered">
+        <ArrowDown goTo={"#about"} />
       </div>
     </div>
   );

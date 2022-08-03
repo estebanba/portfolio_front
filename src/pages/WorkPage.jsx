@@ -12,9 +12,11 @@ const WorkPage = () => {
         <div className="grid">
           {work &&
             work.length > 0 &&
-            work.map((project) => (
-              <WorkCard project={project} key={project.code} />
-            ))}
+            [...work]
+              .reverse()
+              .map((project) => (
+                <WorkCard project={project} key={project.code} />
+              ))}
         </div>
       </section>
     </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const WorkThumbnail = ({ project }) => {
   return (
-    <Link className="noDecoration" to={`/work#${project.code}`}>
+    <Link className="noDecoration scroller" to={`/work#${project.code}`}>
       <div className="scrollCard">
         <h3>{project.name}</h3>
         <p>{project.type}</p>

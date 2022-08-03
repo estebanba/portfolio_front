@@ -4,6 +4,7 @@ import { WorkContext } from "../context/WorkContext";
 import WorkThumbnail from "./WorkThumbnail";
 import arrowRight from "../assets/icons/chevron_right_FILL0_wght400_GRAD0_opsz48.svg";
 import arrowLeft from "../assets/icons/chevron_left_FILL0_wght400_GRAD0_opsz48.svg";
+import ArrowDown from "./ArrowDown";
 
 const WorkSection = () => {
   const { work } = useContext(WorkContext);
@@ -25,17 +26,20 @@ const WorkSection = () => {
   }
 
   return (
-    <div id="workSection">
+    <div id="work" className="section">
       <h2>RECENT WORK</h2>
+      <p>Swipe or drag to see the latest projects I have worked on.</p>
       <div className="scrollContainer">
         <div id="workScroll">
           {work &&
             work.length > 0 &&
-            work.map((project) => (
-              <WorkThumbnail project={project} key={project.code} />
-            ))}
+            [...work]
+              .reverse()
+              .map((project) => (
+                <WorkThumbnail project={project} key={project.code} />
+              ))}
           <button
-            className="roundBtn leftFloat"
+            className="swipeBtn leftFloat"
             type="button"
             onMouseOver={() => slide("left")}
             onClick={() => slide("left")}
@@ -43,7 +47,7 @@ const WorkSection = () => {
             <img src={arrowLeft} alt="<" />
           </button>
           <button
-            className="roundBtn rightFloat"
+            className="swipeBtn rightFloat"
             type="button"
             onMouseOver={() => slide("right")}
             onClick={() => slide("right")}
@@ -51,10 +55,14 @@ const WorkSection = () => {
             <img src={arrowRight} alt=">" />
           </button>
         </div>
+        <p>
+          <Link to="/work">See full section</Link>
+        </p>
       </div>
-      <p>
-        <Link to="/work">See full section</Link>
-      </p>
+
+      <div className="centered">
+        <ArrowDown goTo={"#contact"} />
+      </div>
     </div>
   );
 };
