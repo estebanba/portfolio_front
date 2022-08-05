@@ -27,7 +27,7 @@ const AboutSection = () => {
             <a
               href="https://github.com/estebanba"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>

@@ -112,7 +112,6 @@ header ul {
   list-style: none;
   padding-inline-start: 0;
   display: flex;
-  justify-content: end;
 }
 
 header ul .nav {
@@ -324,7 +323,6 @@ footer ul {
   list-style: none;
   padding-inline-start: 0;
   display: flex;
-  justify-content: end;
 }
 
 footer ul .nav {

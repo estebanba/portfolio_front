@@ -24,7 +24,7 @@ const Footer = () => {
               <a
                 href="https://www.linkedin.com/in/estebanbasili/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 LinkedIn
               </a>
@@ -33,7 +33,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/estebanbasili"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 Instagram
               </a>
@@ -42,7 +42,7 @@ const Footer = () => {
               <a
                 href="https://github.com/estebanba"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>

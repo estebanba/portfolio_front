@@ -25,11 +25,11 @@ const WorkCard = ({ project }) => {
       <div>
         <hr></hr>
         <div className="linksBar RightSmall">
-          <a href={project.github} target="_blank" rel="noreferrer">
+          <a href={project.github} target="_blank" rel="noopener noreferrer">
             go to repository
           </a>
 
-          <a href={project.linkSite} target="_blank" rel="noreferrer">
+          <a href={project.linkSite} target="_blank" rel="noopener noreferrer">
             go to app
           </a>
         </div>

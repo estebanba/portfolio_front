@@ -33,7 +33,7 @@ const AboutPage = () => {
             <a
               href="https://irarquitectura.com/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               IR&nbsp;Arquitectura
             </a>
@@ -69,7 +69,7 @@ const AboutPage = () => {
             <a
               href="https://hyphen.archi/sectors/logistics-architecture/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Hyphen
             </a>{" "}

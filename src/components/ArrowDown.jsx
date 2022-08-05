@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import arrowDown from "../assets/icons/expand_more_FILL0_wght400_GRAD0_opsz48.svg";
 
