@@ -6,10 +6,11 @@ import AboutPage from "./pages/AboutPage";
 import WorkPage from "./pages/WorkPage";
 import { WorkContextProvider } from "./context/WorkContext";
 import HireMePage from "./pages/HireMePage";
+import React from "react";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <WorkContextProvider>
         <Layout>
           <Routes>
@@ -20,7 +21,7 @@ function App() {
           </Routes>
         </Layout>
       </WorkContextProvider>
-    </div>
+    </>
   );
 }
 

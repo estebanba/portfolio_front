@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import React, { createContext, useEffect, useState } from "react";
 
 const WorkContext = createContext();
 
@@ -12,11 +12,11 @@ const WorkContextProvider = ({ children }) => {
         Accept: "application/json",
       },
     })
-      .then(function (response) {
+      .then(function(response) {
         // console.log(response);
         return response.json();
       })
-      .then(function (myJson) {
+      .then(function(myJson) {
         // console.log(myJson);
         setWork(myJson);
       });
