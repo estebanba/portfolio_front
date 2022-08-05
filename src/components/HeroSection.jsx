@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div>
         <h1>Esteban Basili</h1>
         <p className="brand">
-          I'm a creative developer and designer with a background in
+          I'm a Creative Developer and Designer with a background in
           Architecture and Building Information Modeling. Let's build together!
         </p>
       </div>

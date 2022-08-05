@@ -2,13 +2,13 @@
     {
         "code": "w001",
         "name": "The Museum Visitor",
-        "type": "Game written in JavaScript and HTML5 (Canvas)",
+        "type": "Browser Game written in plain JavaScript",
         "created": "2022-05-20",
         "technologies": ["JavaScript", "HTTP", "CSS"],
         "description": "The Museum Visitor is a snake-like game in which you must check out art pieces without getting caught.",
         "images": ["Museum_Visitor_Homepage.jpg", "JPEG"],
         "comments": "Best practices with DOM manipulation, Canvas, functions and classes in JS. Deployment on GitHub Pages.",
-        "credits": "",
+        "credits": "A simple broswer game project during the Full Stack Web Development Bootcamp at Ironhack.",
         "github": "https://github.com/estebanba/the-museum-visitor",
         "linkSite": "https://estebanba.github.io/the-museum-visitor/",
         "linkBlog": "#"

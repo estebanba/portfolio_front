@@ -1,5 +1,5 @@
 import React from "react";
-import ArrowDown from "./ArrowDown";
+import ArrowUp from "./ArrowUp";
 
 const ContactSection = () => {
   return (
@@ -7,10 +7,13 @@ const ContactSection = () => {
       <h2>CONTACT</h2>
       <div className="sectionContent">
         <address className="contentBox">
-          <p>Get in touch</p>
-          <p>Let's talk</p>
-
           <p>Thanks for your visit and interest in my personal site</p>
+          <h4>I'm always interested about:</h4>
+          <p>
+            Fullstack Development, Frontend Development, Backend Development,
+            BIM Management, Sustainable Architecture, Modular Architecture, New
+            Businesses, Startups, Photowalks
+          </p>
           <p>Have a project in mind?</p>
           <p>
             If you would like to discuss potential collaborations you can reach
@@ -46,7 +49,7 @@ const ContactSection = () => {
         <div></div>
       </div>
       <div className="centered">
-        <ArrowDown goTo={"#top"} />
+        <ArrowUp goTo={"#top"} />
       </div>
     </div>
   );

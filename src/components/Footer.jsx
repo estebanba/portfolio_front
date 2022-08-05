@@ -14,7 +14,12 @@ const Footer = () => {
         <div className="footerRight">
           <ul>
             <li className="nav">
-              <Link to="/about">me@estebanbasili.com</Link>
+              <a
+                style={{ color: "inherit" }}
+                href="mailto:me@estebanbasili.com"
+              >
+                me@estebanbasili.com
+              </a>
             </li>
             <li className="nav">
               <a

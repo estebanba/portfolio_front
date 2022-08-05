@@ -2,52 +2,66 @@ import React from "react";
 
 const HireMePage = () => {
   return (
-    <div id="hireme">
-      <h2>HIRE ME</h2>
-      <p>For the last 10 years I have been working </p>
-      <h3>I can help your team with:</h3>
+    <div id="hireme" className="page">
+      <h2>LET'S WORK TOGETHER</h2>
       <div className="sectionContent">
         <div className="contentBox">
-          <h4>Web Development</h4>
           <p>
-            Mobile and Web Design I always strive to create memorable
-            experiences that are aesthetically appealing, functional and
-            distinctive. Whether it's inspiring marketing websites, convincing
-            e-commerce sites or apps that are truly beneficial to users.
+            I am passionate about everything that involves designing and
+            building meaningful things and enjoy working with enthusiastic
+            people who want to make everyday better through creative solutions.
           </p>
-          <h5>Technologies</h5>
-          <ul>
-            <li>Javascript</li>
-          </ul>
-        </div>
-        <div className="contentBox">
-          <h4>Architecture Design</h4>
+          <p>If your are on the same boat, I can help your team with:</p>
+          <h4>Web Development.</h4>
+          <h5>Fullstack Development</h5>
           <p>
-            Mobile and Web Design I always strive to create memorable
-            experiences that are aesthetically appealing, functional and
-            distinctive. Whether it's inspiring marketing websites, convincing
-            e-commerce sites or apps that are truly beneficial to users.
+            Pragmatic approach to an MVP. optimised as possible. building
+            interfaces apps spectrum of technologies
           </p>
-          <h5>Technologies</h5>
-          <ul>
-            <li>Javascript</li>
-          </ul>
-        </div>
-        <div className="contentBox">
-          <h4>Building Information Modeling</h4>
-          <p>BIM Management</p>
-          <p>Automation</p>
-          <p>Bla Bla</p>
-          <h5>Technologies</h5>
-          <ul>
-            <li>Javascript</li>
-          </ul>
-        </div>
-        <div className="contentBox">
+          <h5>Frontend Development</h5>
           <p>
-            If this sounds like something you're interested in, send me an
+            Single-page applications. Taking care of the details that make a
+            design possible. Interaction and User Interfaces. Understanding of
+            browser rendering. Mobile first approach. User-friendly product.
+            Accessibility. Technologies: HTML, CSS, Javascript and React.
+          </p>
+          <h5>Backend Development</h5>
+          <p>
+            Server-side applications. Plan, build and deliver a Server that's
+            fast, secure and reliable. Putting together an application or API
+            with Node.js, MongoDB, Mongoose and Express.
+          </p>
+
+          <h4>Architectural Design and Building Information Modeling.</h4>
+
+          <h5>BIM Management and Strategy.</h5>
+          <p>
+            Understand the client's needs and build a knowledge base on this
+            understanding. Design methods to address the clients's needs and
+            requirements. Bussiness and execution plans. Establish project
+            environment. Digital Transformation.
+          </p>
+          <h5>BIM Execution and Coordination.</h5>
+          <p>
+            Definition of Standards. Roles. Workflows. Support (management,
+            communication and team coordination)
+          </p>
+          <h5>BIM Development.</h5>
+          <p>
+            Overcoming bottlenecks and software limitations by developing
+            specific solutions. Production of products, hacks, systems.
+            Integration between existing software solutions and processes.
+          </p>
+          <h3>Let's build something together.</h3>
+          <p>
+            If you are looking for help building something where diversity,
+            sustainability, and social impact are important, then I am your guy.
+          </p>
+          <p>
+            If this all sounds like something you're interested in, send me an
             email!
           </p>
+          {/* <h2>There is no here</h2> */}
           <p>Download CV</p>
         </div>
       </div>

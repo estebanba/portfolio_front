@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
@@ -30,21 +29,40 @@ const Header = () => {
         <div>
           <ul>
             <li className="nav">
-              <Link
+              <HashLink
                 smooth
                 to={{
-                  hash: "#work",
+                  hash: "#",
+                  pathname: "/about",
+                }}
+                scroll={scrollWithOffset}
+              >
+                About
+              </HashLink>
+            </li>
+            <li className="nav">
+              <HashLink
+                smooth
+                to={{
+                  hash: "#",
                   pathname: "/work",
                 }}
+                scroll={scrollWithOffset}
               >
                 Work
-              </Link>
+              </HashLink>
             </li>
             <li className="nav">
-              <Link to="/about">About</Link>
-            </li>
-            <li className="nav">
-              <Link to="/hireme">Hire Me</Link>
+              <HashLink
+                smooth
+                to={{
+                  hash: "#",
+                  pathname: "/hireme",
+                }}
+                scroll={scrollWithOffset}
+              >
+                Hire Me
+              </HashLink>
             </li>
             <li className="nav">
               <HashLink

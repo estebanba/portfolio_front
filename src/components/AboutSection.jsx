@@ -9,23 +9,37 @@ const AboutSection = () => {
       <div className="sectionContent">
         <div className="contentBox">
           <p>
-            Full Stack Web Developer with a sensibility for human-centred
-            design, user experience and multidisciplinarity as key values to
-            create meaningful and impactful products.
+            I love to work on a any type of projects that make a good impact on
+            society and nature. After many years in architecture and design, I
+            know what's needed to make products and experiences possible,
+            functional and beautiful.
           </p>
           <p>
-            Architect sharing my passion about technology, digitalization and
-            data driven design, which I believe are essential to bring the built
-            environment to the 21th century.
+            My work focuses on building digital experiences that people fall in
+            love with. I am based in Berlin, Germany, and can connect globally
+            with teams & to create digital excellence. Do you have a project in
+            mind? I am always on the lookout for interesting collaborations!
           </p>
           <p>
-            You can read a bit more <Link to="/about">about</Link> me and my
-            past work. Most of my personal code is on GitHub.
+            You can read more <Link to="/about">about</Link> who I am and what I
+            have been up to until now. For a more technical approach please
+            check my{" "}
+            <a
+              href="https://github.com/estebanba"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            .
           </p>
           <p>
-            I am available for freelance work in a consulting capacity, or as a
-            tech advisor. If you would like to get in touch with me about
-            working with you, email me and we'll chat!
+            If you would like to get in touch with me about working with you,
+            <a style={{ color: "inherit" }} href="mailto:me@estebanbasili.com">
+              {" "}
+              email me
+            </a>{" "}
+            and we'll talk!
           </p>
         </div>
         <div className="contentBox"></div>
