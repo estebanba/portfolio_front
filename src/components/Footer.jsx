@@ -22,6 +22,14 @@ const Footer = () => {
             </li>
             <li className="nav">
               <a
+                href="../assets/files/CV_2022_EstebanBasili_EN.pdf"
+                target="blank"
+              >
+                Download CV
+              </a>
+            </li>
+            <li className="nav">
+              <a
                 href="https://www.linkedin.com/in/estebanbasili/"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -1,5 +1,6 @@
 html {
   margin: 0;
+  font-size: 16px;
 }
 
 body {
@@ -23,11 +24,11 @@ h2 {
 }
 
 h1:hover, h2:hover {
-  text-shadow: 5px 5px rgb(223, 223, 223);
+  text-shadow: 0.25rem 0.25rem rgb(223, 223, 223);
 }
 
 h3 {
-  margin: 7.5px 0 7.5px 0;
+  margin: 0.5rem 0 0.5rem 0;
   font-size: 2.5rem;
 }
 
@@ -39,6 +40,14 @@ h4 {
 h5 {
   font-size: 1.2rem;
   margin: 7.5px 0 7.5px 0;
+}
+
+a, a:visited {
+  color: black;
+}
+
+a:hover, a:active{
+  font-weight: 900;
 }
 
 .page {
@@ -53,15 +62,16 @@ h5 {
   max-width: 1200px;
 }
 
+/* Test scrolling snap in vertical */
 /* .scroller {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 } */
 
-.scroller section {
+/* .scroller section {
   scroll-snap-align: start;
-}
+} */
 
 hr {
   margin: 0;
@@ -81,21 +91,9 @@ hr {
   filter: drop-shadow(3px 3px rgb(223, 223, 223));
 }
 
-@keyframes pulse {
-  0% {
-    width: 80px;
-  }
-  50% {
-    width: 100px;
-  }
-  100% {
-    width: 80px;
-  }
-}
-
 /* HEADER */
 
-#headerSection {
+#header {
   position: sticky;
   top: 0;
   z-index: 100;
@@ -106,6 +104,7 @@ header {
   display: flex;
   justify-content: space-between;
   background-color: white;
+  font-size: 16px;
 }
 
 header ul {
@@ -114,21 +113,14 @@ header ul {
   display: flex;
 }
 
-header ul .nav {
+.menuItem {
   margin-left: 10px;
 }
 
+/* HAMBURGER MENU */
+
 main {
   padding-bottom: 50px;
-}
-
-
-a:visited {
-  color: inherit;
-}
-
-a:hover, a:active{
-  font-weight: 900;
 }
 
 .noDecoration {
@@ -300,10 +292,6 @@ address {
   text-decoration: inherit;
 }
 
-address a {
-  color: inherit;
-}
-
 /* FOOTER */
 
 #footerSection {
@@ -330,14 +318,32 @@ footer ul .nav {
 }
 
 @media screen and (max-width: 500px){
-  h1 {
-    margin: 0;
-    font-size: 4rem;
-    font-weight: bold;
+  html {
+    font-size: 12px;
   }
+
+  .hamburger {
+    display: block;
+    font-family: inherit;
+    font-size: inherit;
+    text-decoration: underline;
+    border: none;
+    background-color: transparent;
+  }
+
+  .closeMenu {
+    display: none;
+  }
+  
+  h1 {
+    font-weight: bold;
+    line-height: 100%;
+  }
+
   p.brand {
     font-size: 2rem;
   }
+
   #footerSection {
     display: none;
   }

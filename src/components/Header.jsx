@@ -1,17 +1,16 @@
 import React from "react";
+
 import { HashLink } from "react-router-hash-link";
+import MenuNav from "./MenuNav";
+import { useMediaQuery } from "react-responsive";
 
 const Header = () => {
-  const scrollWithOffset = (el) => {
-    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-    const yOffset = -100;
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
-  };
+  const isMobile = useMediaQuery({ maxWidth: 500 });
 
   return (
-    <div id="headerSection">
+    <div id="header">
       <header>
-        <div>
+        <div className="logo">
           <ul>
             <li>
               <HashLink
@@ -26,58 +25,13 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <ul>
-            <li className="nav">
-              <HashLink
-                smooth
-                to={{
-                  hash: "#",
-                  pathname: "/about",
-                }}
-                scroll={scrollWithOffset}
-              >
-                About
-              </HashLink>
-            </li>
-            <li className="nav">
-              <HashLink
-                smooth
-                to={{
-                  hash: "#",
-                  pathname: "/work",
-                }}
-                scroll={scrollWithOffset}
-              >
-                Work
-              </HashLink>
-            </li>
-            <li className="nav">
-              <HashLink
-                smooth
-                to={{
-                  hash: "#",
-                  pathname: "/hireme",
-                }}
-                scroll={scrollWithOffset}
-              >
-                Hire Me
-              </HashLink>
-            </li>
-            <li className="nav">
-              <HashLink
-                smooth
-                to={{
-                  hash: "#contact",
-                  pathname: "/",
-                }}
-                scroll={scrollWithOffset}
-              >
-                Contact
-              </HashLink>
-            </li>
-          </ul>
-        </div>
+        {!isMobile && <MenuNav />}
+        {isMobile && (
+          <button className="hamburger">
+            <span className="openMenu">Menu</span>
+            <span className="closeMenu">Close</span>
+          </button>
+        )}
       </header>
       <hr></hr>
     </div>
