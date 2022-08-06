@@ -44,9 +44,12 @@ const ContactSection = () => {
             >
               GitHub
             </a>
+          </p>
+          <p>
             <a
               href="../assets/files/CV_2022_EstebanBasili_EN.pdf"
               target="blank"
+              download
             >
               Download CV
             </a>
