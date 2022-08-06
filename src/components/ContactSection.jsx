@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ArrowUp from "./ArrowUp";
 
 const ContactSection = () => {
@@ -46,13 +47,13 @@ const ContactSection = () => {
             </a>
           </p>
           <p>
-            <a
-              href="../assets/files/CV_2022_EstebanBasili_EN.pdf"
-              target="blank"
+            <Link
+              to="../../public/CV_2022_EstebanBasili_EN.pdf"
+              target="_blank"
               download
             >
               Download CV
-            </a>
+            </Link>
           </p>
         </address>
         <div></div>
