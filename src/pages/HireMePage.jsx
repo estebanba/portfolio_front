@@ -62,7 +62,14 @@ const HireMePage = () => {
             email!
           </p>
           {/* <h2>There is no here</h2> */}
-          <p>Download CV</p>
+          <p>
+            <a
+              href="../assets/files/CV_2022_EstebanBasili_EN.pdf"
+              target="blank"
+            >
+              Download CV
+            </a>
+          </p>
         </div>
       </div>
     </div>

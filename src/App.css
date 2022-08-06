@@ -340,6 +340,10 @@ footer ul .nav {
     line-height: 100%;
   }
 
+  h2 {
+    font-size: 3rem;
+  }
+
   p.brand {
     font-size: 2rem;
   }
