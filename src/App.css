@@ -96,7 +96,6 @@ hr {
 #header {
   position: sticky;
   top: 0;
-  z-index: 100;
 }
 
 header {
@@ -105,6 +104,7 @@ header {
   justify-content: space-between;
   background-color: white;
   font-size: 16px;
+  z-index: 100;
 }
 
 header ul {
@@ -128,9 +128,6 @@ main {
   color: black;
 }
 
-.scrollContainer {
-  position: relative;
-}
 
 .swipeBtn {
   display: flex;
@@ -322,6 +319,20 @@ footer ul .nav {
     font-size: 12px;
   }
 
+  .menuMobile {
+    height: 100vh;
+    width: calc(100vw - 40px);
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(50%, 50%); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
   .hamburger {
     display: block;
     font-family: inherit;
@@ -331,8 +342,17 @@ footer ul .nav {
     background-color: transparent;
   }
 
-  .closeMenu {
-    display: none;
+  .menuList {
+    list-style: none;
+    padding-inline-start: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menuList li {
+    margin: 10px;
+    font-size: 3rem;
   }
   
   h1 {

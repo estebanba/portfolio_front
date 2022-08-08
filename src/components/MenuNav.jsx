@@ -1,7 +1,7 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
 
-const MenuNav = () => {
+const MenuNav = ({ setMenuOpen, menuOpen }) => {
   const scrollWithOffset = (el) => {
     const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
     const yOffset = -100;
@@ -19,6 +19,7 @@ const MenuNav = () => {
               pathname: "/about",
             }}
             scroll={scrollWithOffset}
+            onClick={() => setMenuOpen(false)}
           >
             About
           </HashLink>
@@ -31,6 +32,7 @@ const MenuNav = () => {
               pathname: "/work",
             }}
             scroll={scrollWithOffset}
+            onClick={() => setMenuOpen(false)}
           >
             Work
           </HashLink>
@@ -43,6 +45,7 @@ const MenuNav = () => {
               pathname: "/hireme",
             }}
             scroll={scrollWithOffset}
+            onClick={() => setMenuOpen(false)}
           >
             Hire Me
           </HashLink>
@@ -55,6 +58,7 @@ const MenuNav = () => {
               pathname: "/",
             }}
             scroll={scrollWithOffset}
+            onClick={() => setMenuOpen(false)}
           >
             Contact
           </HashLink>

@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 import { HashLink } from "react-router-hash-link";
 import MenuNav from "./MenuNav";
 import { useMediaQuery } from "react-responsive";
+import MenuMobile from "./MenuMobile";
 
 const Header = () => {
   const isMobile = useMediaQuery({ maxWidth: 500 });
+  const [menuOpen, setMenuOpen] = useState(false);
+  const handleToggle = () => {
+    setMenuOpen((prev) => !prev);
+  };
 
   return (
     <div id="header">
@@ -27,12 +32,14 @@ const Header = () => {
         </div>
         {!isMobile && <MenuNav />}
         {isMobile && (
-          <button className="hamburger">
-            <span className="openMenu">Menu</span>
-            <span className="closeMenu">Close</span>
-          </button>
+          <>
+            <button onClick={handleToggle} className="hamburger">
+              {menuOpen ? "Close" : "Menu"}
+            </button>
+          </>
         )}
       </header>
+      <MenuMobile menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <hr></hr>
     </div>
   );
