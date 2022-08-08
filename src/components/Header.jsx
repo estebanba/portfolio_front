@@ -24,6 +24,11 @@ const Header = () => {
                   hash: "#",
                   pathname: "/",
                 }}
+                onClick={() => {
+                  if (menuOpen === true) {
+                    setMenuOpen(false);
+                  }
+                }}
               >
                 Esteban Basili
               </HashLink>

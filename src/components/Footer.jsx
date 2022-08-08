@@ -10,7 +10,7 @@ const Footer = () => {
             <li>© 2022-present. Esteban Basili.</li>
           </ul>
         </div>
-        <div className="footerRight">
+        <div className="footerNav">
           <ul>
             <li className="nav">
               <a

@@ -8,14 +8,14 @@ const ContactSection = () => {
       <h2>CONTACT</h2>
       <div className="sectionContent">
         <address className="contentBox">
-          <p>Thanks for your visit and interest in my personal site</p>
-          <h4>I'm always interested about:</h4>
+          <p>Do you have a project in mind?</p>
+          <h4>I'm always interested in:</h4>
           <p>
             Fullstack Development, Frontend Development, Backend Development,
             BIM Management, Sustainable Architecture, Modular Architecture, New
             Businesses, Startups, Photowalks
           </p>
-          <p>Have a project in mind?</p>
+
           <p>
             If you would like to discuss potential collaborations you can reach
             me at <a href="mailto:me@estebanbasili.com">me@estebanbasili.com</a>
@@ -46,6 +46,7 @@ const ContactSection = () => {
               GitHub
             </a>
           </p>
+
           <p>
             <Link
               to="../../public/CV_2022_EstebanBasili_EN.pdf"
@@ -56,11 +57,9 @@ const ContactSection = () => {
             </Link>
           </p>
         </address>
-        <div></div>
       </div>
-      <div className="centered">
-        <ArrowUp goTo={"#top"} />
-      </div>
+
+      <ArrowUp goTo={"#top"} />
     </div>
   );
 };

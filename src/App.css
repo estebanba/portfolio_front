@@ -82,9 +82,16 @@ hr {
   flex-direction: row;
 }
 
+.bottomOptions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .arrowSection {
-  margin-left: -20px;
+  margin-right: -20px;
   width: 80px;
+
 }
 
 .arrowSection:hover {
@@ -128,37 +135,37 @@ main {
   color: black;
 }
 
-
-.swipeBtn {
+.swipeBar {
+  margin: auto;
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  text-align: center;
+}
+
+.swipeButton {
   width: 50px;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 50%;
+  background-color: transparent;
   border: none;
 }
 
-.swipeBtn img {
+.swipeButton img {
   width: 40px;
 }
 
-.rightFloat {
-  position: absolute;
-  right: 10px;
-  top: 55%;
-}
-
-.leftFloat {
-  position: absolute;
-  left: 10px;
-  top: 55%;
+.homeSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .section {
-  margin-top: 50px;
   margin-bottom: 50px;
   height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .sectionContent {
@@ -182,15 +189,14 @@ main {
 
 #hero {
   height: calc(100vh - 50px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  
 }
 
 p.brand {
   font-size: 3.5rem;
   margin: 1rem 0;
 }
+
 
 
 
@@ -281,7 +287,8 @@ p.brand {
 /* CONTACT SECTION */
 
 #contact {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 100px);
+  margin: auto;
 }
 
 address {
@@ -362,6 +369,10 @@ footer ul .nav {
 
   h2 {
     font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 
   p.brand {

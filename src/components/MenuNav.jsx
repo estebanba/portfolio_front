@@ -1,13 +1,8 @@
 import React from "react";
 import { HashLink } from "react-router-hash-link";
+import { scrollWithOffset } from "../utils/scrollWithOffset";
 
 const MenuNav = ({ setMenuOpen, menuOpen }) => {
-  const scrollWithOffset = (el) => {
-    const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-    const yOffset = -100;
-    window.scrollTo({ top: yCoordinate + yOffset, behavior: "smooth" });
-  };
-
   return (
     <nav className="menu">
       <ul className="menuList">
@@ -54,11 +49,15 @@ const MenuNav = ({ setMenuOpen, menuOpen }) => {
           <HashLink
             smooth
             to={{
-              hash: "#contact",
-              pathname: "/",
+              hash: "#",
+              pathname: "/contact",
             }}
             scroll={scrollWithOffset}
-            onClick={() => setMenuOpen(false)}
+            onClick={() => {
+              if (menuOpen === true) {
+                setMenuOpen(false);
+              }
+            }}
           >
             Contact
           </HashLink>

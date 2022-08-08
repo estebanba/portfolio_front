@@ -7,6 +7,7 @@ import WorkPage from "./pages/WorkPage";
 import { WorkContextProvider } from "./context/WorkContext";
 import HireMePage from "./pages/HireMePage";
 import React from "react";
+import ContactSection from "./components/ContactSection";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/work" element={<WorkPage />} />
             <Route path="/hireme" element={<HireMePage />} />
+            <Route path="/contact" element={<ContactSection />} />
           </Routes>
         </Layout>
       </WorkContextProvider>

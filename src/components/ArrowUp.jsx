@@ -10,9 +10,14 @@ const ArrowUp = ({ goTo }) => {
   };
 
   return (
-    <HashLink smooth to={goTo} scroll={scrollWithOffset}>
-      <img className="arrowSection" src={arrowUp} alt="scroll down" />
-    </HashLink>
+    <div className="bottomOptions">
+      <div></div>
+      <div>
+        <HashLink smooth to={goTo} scroll={scrollWithOffset}>
+          <img className="arrowSection" src={arrowUp} alt="scroll down" />
+        </HashLink>
+      </div>
+    </div>
   );
 };
 
