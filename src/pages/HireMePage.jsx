@@ -16,8 +16,8 @@ const HireMePage = () => {
           <h3>Web Development.</h3>
           <h4>Fullstack Development.</h4>
           <p>
-            Pragmatic approach to an MVP. Building pps using modern technologies
-            .
+            Pragmatic approach to an MVP. Building pps using modern
+            technologies.
           </p>
           <h4>Frontend Development.</h4>
           <p>
