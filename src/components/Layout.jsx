@@ -1,5 +1,4 @@
 import React from "react";
-import ArrowUp from "./ArrowUp";
 import Footer from "./Footer";
 import Header from "./Header";
 
