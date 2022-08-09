@@ -11,7 +11,7 @@ const AboutSection = () => {
           <p>
             My work focuses on building experiences that make a good impact and,
             after many years in architecture and design, I know what's needed to
-            make products and experiences possible, functional and beautiful.
+            make products and experiences possible, functional and appealing.
           </p>
           <p>
             Based in Berlin, Germany, I can connect globally with teams to
