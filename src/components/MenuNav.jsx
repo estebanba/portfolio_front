@@ -14,7 +14,11 @@ const MenuNav = ({ setMenuOpen, menuOpen }) => {
               pathname: "/about",
             }}
             scroll={scrollWithOffset}
-            onClick={() => setMenuOpen(false)}
+            onClick={() => {
+              if (menuOpen === true) {
+                setMenuOpen(false);
+              }
+            }}
           >
             About
           </HashLink>
@@ -27,7 +31,11 @@ const MenuNav = ({ setMenuOpen, menuOpen }) => {
               pathname: "/work",
             }}
             scroll={scrollWithOffset}
-            onClick={() => setMenuOpen(false)}
+            onClick={() => {
+              if (menuOpen === true) {
+                setMenuOpen(false);
+              }
+            }}
           >
             Work
           </HashLink>
@@ -40,7 +48,11 @@ const MenuNav = ({ setMenuOpen, menuOpen }) => {
               pathname: "/hireme",
             }}
             scroll={scrollWithOffset}
-            onClick={() => setMenuOpen(false)}
+            onClick={() => {
+              if (menuOpen === true) {
+                setMenuOpen(false);
+              }
+            }}
           >
             Hire Me
           </HashLink>

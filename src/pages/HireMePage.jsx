@@ -1,4 +1,5 @@
 import React from "react";
+import cvDownload from "../assets/files/CV_2022_EstebanBasili_EN.pdf";
 
 const HireMePage = () => {
   return (
@@ -7,66 +8,65 @@ const HireMePage = () => {
       <div className="sectionContent">
         <div className="contentBox">
           <p>
-            I am passionate about everything that involves designing and
-            building meaningful things and enjoy working with enthusiastic
-            people who want to make everyday better through creative solutions.
+            I am passionate about projects that involve designing and building
+            meaningful things and enjoy working with enthusiastic people who
+            want to make everyday a better day through creative solutions.
           </p>
-          <p>If your are on the same boat, I can help your team with:</p>
-          <h4>Web Development.</h4>
-          <h5>Fullstack Development</h5>
+          <p>I can help your team with:</p>
+          <h3>Web Development.</h3>
+          <h4>Fullstack Development.</h4>
           <p>
-            Pragmatic approach to an MVP. optimised as possible. building
-            interfaces apps spectrum of technologies
+            Pragmatic approach to an MVP. Building pps using modern technologies
+            .
           </p>
-          <h5>Frontend Development</h5>
+          <h4>Frontend Development.</h4>
           <p>
-            Single-page applications. Taking care of the details that make a
-            design possible. Interaction and User Interfaces. Understanding of
-            browser rendering. Mobile first approach. User-friendly product.
-            Accessibility. Technologies: HTML, CSS, Javascript and React.
+            Taking care of the details that make a design possible,
+            User-friendly and Accessible. Interaction and User Interfaces.
+            Understanding of browser rendering. Single-page applications. Mobile
+            first approach. Technologies: HTML, CSS, Javascript, React.
           </p>
-          <h5>Backend Development</h5>
+          <h4>Backend Development.</h4>
           <p>
             Server-side applications. Plan, build and deliver a Server that's
             fast, secure and reliable. Putting together an application or API
             with Node.js, MongoDB, Mongoose and Express.
           </p>
 
-          <h4>Architectural Design and Building Information Modeling.</h4>
+          <h3>Architectural Design and Building Information Modeling.</h3>
 
-          <h5>BIM Management and Strategy.</h5>
+          <h4>BIM Management and Strategy.</h4>
           <p>
             Understand the client's needs and build a knowledge base on this
             understanding. Design methods to address the clients's needs and
             requirements. Bussiness and execution plans. Establish project
             environment. Digital Transformation.
           </p>
-          <h5>BIM Execution and Coordination.</h5>
+          <h4>BIM Execution and Coordination.</h4>
           <p>
             Definition of Standards. Roles. Workflows. Support (management,
-            communication and team coordination)
+            communication and team coordination).
           </p>
-          <h5>BIM Development.</h5>
+          <h4>BIM Development.</h4>
           <p>
-            Overcoming bottlenecks and software limitations by developing
-            specific solutions. Production of products, hacks, systems.
-            Integration between existing software solutions and processes.
+            Product development, hacks, systems. Integration between existing
+            software solutions and processes. Overcoming bottlenecks and
+            software limitations by developing specific solutions.
           </p>
           <h3>Let's build something together.</h3>
           <p>
-            If you are looking for help building something where diversity,
-            sustainability, and social impact are important, then I am your guy.
+            If you are looking for help building something where sustainability
+            and social impact are important, I would love to hear from you.
           </p>
           <p>
-            If this all sounds like something you're interested in, send me an
-            email!
+            Send me an{" "}
+            <a style={{ color: "inherit" }} href="mailto:me@estebanbasili.com">
+              email
+            </a>
           </p>
           {/* <h2>There is no here</h2> */}
           <p>
-            <a
-              href="../assets/files/CV_2022_EstebanBasili_EN.pdf"
-              target="blank"
-            >
+            <a href={cvDownload} download="EstebanBasili_CV_2022">
               Download CV
             </a>
           </p>

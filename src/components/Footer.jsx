@@ -1,4 +1,5 @@
 import React from "react";
+import cvDownload from "../assets/files/CV_2022_EstebanBasili_EN.pdf";
 
 const Footer = () => {
   return (
@@ -21,10 +22,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="nav">
-              <a
-                href="../assets/files/CV_2022_EstebanBasili_EN.pdf"
-                target="blank"
-              >
+              <a href={cvDownload} download="EstebanBasili_CV_2022">
                 Download CV
               </a>
             </li>
