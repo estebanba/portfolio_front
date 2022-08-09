@@ -1,5 +1,5 @@
 import React from "react";
-import cvDownload from "../assets/files/CV_2022_EstebanBasili_EN.pdf";
+// import cvDownload from "../assets/files/CV_2022_EstebanBasili_EN.pdf";
 
 const Footer = () => {
   return (
@@ -21,11 +21,11 @@ const Footer = () => {
                 me@estebanbasili.com
               </a>
             </li>
-            <li className="nav">
+            {/* <li className="nav">
               <a href={cvDownload} download="EstebanBasili_CV_2022">
                 Download CV
               </a>
-            </li>
+            </li> */}
             <li className="nav">
               <a
                 href="https://www.linkedin.com/in/estebanbasili/"
@@ -35,7 +35,7 @@ const Footer = () => {
                 LinkedIn
               </a>
             </li>
-            <li className="nav">
+            {/* <li className="nav">
               <a
                 href="https://www.instagram.com/estebanbasili"
                 target="_blank"
@@ -43,7 +43,7 @@ const Footer = () => {
               >
                 Instagram
               </a>
-            </li>
+            </li> */}
             <li className="nav">
               <a
                 href="https://github.com/estebanba"

@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import { scrollWithOffset } from "../utils/scrollWithOffset";
 import ArrowDown from "./ArrowDown";
 
 const AboutSection = () => {
@@ -19,9 +20,24 @@ const AboutSection = () => {
             always on the lookout for interesting collaborations.
           </p>
           <p>
-            You can read more <Link to="/about">about</Link> who I am and what I
-            have been up to until now. For a more technical approach please
-            check my{" "}
+            You can read more{" "}
+            <HashLink
+              smooth
+              to={{
+                hash: "#",
+                pathname: "/about",
+              }}
+              scroll={scrollWithOffset}
+              // onClick={() => {
+              //   if (menuOpen === true) {
+              //     setMenuOpen(false);
+              //   }
+              // }}
+            >
+              About
+            </HashLink>{" "}
+            who I am and what I have been up to until now. For a more technical
+            approach please check my{" "}
             <a
               href="https://github.com/estebanba"
               target="_blank"

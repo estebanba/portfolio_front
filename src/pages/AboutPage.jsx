@@ -102,8 +102,16 @@ const AboutPage = () => {
           <p>
             Besides being at the computer for hours a day, I like to stretch my
             legs or go cycling from time to time, travelling and getting out to
-            take photos. I shoot anytime with my phone, but sometimes I like to
-            get fancy and go out with my Canon T3i and 50mm lens.
+            take photos, a selection of which are published{" "}
+            <a
+              href="https://www.instagram.com/estebanbasili"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            . I shoot anytime with my phone, but sometimes I like to get fancy
+            and go out with my Canon T3i and 50mm lens.
           </p>
           <p>
             I have incorporated Yoga into my life, bringing more balance and

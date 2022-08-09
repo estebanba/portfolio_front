@@ -1,9 +1,23 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import { scrollWithOffset } from "../utils/scrollWithOffset";
 
 const WorkThumbnail = ({ project }) => {
   return (
-    <Link className="noDecoration scroller" to={`/work#${project.code}`}>
+    <HashLink
+      className="noDecoration scroller"
+      smooth
+      to={{
+        hash: `#${project.code}`,
+        pathname: `/work`,
+      }}
+      scroll={scrollWithOffset}
+      // onClick={() => {
+      //   if (menuOpen === true) {
+      //     setMenuOpen(false);
+      //   }
+      // }}
+    >
       <div className="scrollCard">
         <h3>{project.name}</h3>
         <p>{project.type}</p>
@@ -12,7 +26,7 @@ const WorkThumbnail = ({ project }) => {
           alt={project.images[0]}
         />
       </div>
-    </Link>
+    </HashLink>
   );
 };
 

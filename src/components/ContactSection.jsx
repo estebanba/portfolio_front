@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import ArrowUp from "./ArrowUp";
 
 const ContactSection = () => {
@@ -23,14 +23,6 @@ const ContactSection = () => {
           <p>
             I can be found also on{" "}
             <a
-              href="https://www.instagram.com/estebanbasili"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>{" "}
-            ,{" "}
-            <a
               href="https://www.linkedin.com/in/estebanbasili/"
               target="_blank"
               rel="noopener noreferrer"
@@ -43,11 +35,11 @@ const ContactSection = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              GitHub.
             </a>
           </p>
 
-          <p>
+          {/* <p>
             <Link
               to="../../public/CV_2022_EstebanBasili_EN.pdf"
               target="_blank"
@@ -55,7 +47,7 @@ const ContactSection = () => {
             >
               Download CV
             </Link>
-          </p>
+          </p> */}
         </address>
       </div>
 
