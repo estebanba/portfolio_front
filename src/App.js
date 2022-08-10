@@ -20,6 +20,7 @@ function App() {
             <Route path="/work" element={<WorkPage />} />
             <Route path="/hireme" element={<HireMePage />} />
             <Route path="/contact" element={<ContactSection />} />
+            {/* <Route path="*" element={<HomePage />} /> */}
           </Routes>
         </Layout>
       </WorkContextProvider>
