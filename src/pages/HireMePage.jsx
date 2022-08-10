@@ -16,7 +16,7 @@ const HireMePage = () => {
           <h3>Web Development.</h3>
           <h4>Fullstack Development.</h4>
           <p>
-            Pragmatic approach to an MVP. Building pps using modern
+            Pragmatic approach to an MVP. Building apps using modern
             technologies.
           </p>
           <h4>Frontend Development.</h4>
@@ -37,10 +37,10 @@ const HireMePage = () => {
 
           <h4>BIM Management and Strategy.</h4>
           <p>
-            Understand the client's needs and build a knowledge base on this
-            understanding. Design methods to address the clients's needs and
-            requirements. Bussiness and execution plans. Establish project
-            environment. Digital Transformation.
+            Understand the client's needs and build a knowledge base on this.
+            Design methods to address the clients's needs and requirements.
+            Bussiness and execution plans. Establish project environments.
+            Promote Digital Transformation.
           </p>
           <h4>BIM Execution and Coordination.</h4>
           <p>
@@ -49,9 +49,9 @@ const HireMePage = () => {
           </p>
           <h4>BIM Development.</h4>
           <p>
-            Product development, hacks, systems. Integration between existing
-            software solutions and processes. Overcoming bottlenecks and
-            software limitations by developing specific solutions.
+            Products, hacks, workflows. Integration between existing software
+            solutions and processes. Overcoming bottlenecks and software
+            limitations by developing specific solutions.
           </p>
           <h3>Let's build something together.</h3>
           <p>

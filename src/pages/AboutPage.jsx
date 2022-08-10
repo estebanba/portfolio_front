@@ -87,9 +87,10 @@ const AboutPage = () => {
           </p>
           <p>
             I decided that in order to help bridge these gaps I would dive into
-            learning to code and become a Developer, building real applications,
-            becoming part of the amazing Community and learning a bunch of cool
-            Tools on the way.{" "}
+            learning to code and become a Developer. By joining the Web
+            Development Bootcamp at Ironhak I had hands on experience in
+            building real applications, becoming part of the amazing Community
+            and learning a bunch of cool Tools on the way.{" "}
           </p>
           <p>
             I am now working in the intersection between Design and Technology,
