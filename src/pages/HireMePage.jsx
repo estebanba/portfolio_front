@@ -65,11 +65,11 @@ const HireMePage = () => {
             </a>
           </p>
           {/* <h2>There is no here</h2> */}
-          <p>
+          {/* <p>
             <a href={cvDownload} download="EstebanBasili_CV_2022">
               Download CV
             </a>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
