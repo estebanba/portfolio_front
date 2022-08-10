@@ -12,12 +12,12 @@ const AboutSection = () => {
           <p>
             My work focuses on building experiences that make a good impact and,
             after many years in architecture and design, I know what's needed to
-            make products and experiences possible, functional and appealing.
+            make these possible, functional and appealing.
           </p>
           <p>
-            Based in Berlin, Germany, I can connect globally with teams to
-            create digital excellence. Do you have a project in mind? I am
-            always on the lookout for interesting collaborations.
+            Based in Berlin, Germany, I can connect globally in pursuit of
+            digital excellence. Do you have a project in mind? I am always on
+            the lookout for interesting collaborations.
           </p>
           <p>
             You can read more{" "}
