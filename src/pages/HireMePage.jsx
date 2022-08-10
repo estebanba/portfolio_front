@@ -1,5 +1,5 @@
 import React from "react";
-import cvDownload from "../assets/files/CV_2022_EstebanBasili_EN.pdf";
+// import cvDownload from "../assets/files/CV_2022_EstebanBasili_EN.pdf";
 
 const HireMePage = () => {
   return (
