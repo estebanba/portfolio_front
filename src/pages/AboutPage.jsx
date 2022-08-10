@@ -36,13 +36,10 @@ const AboutPage = () => {
             >
               IR&nbsp;Arquitectura
             </a>
-            , jointly conceiving and developing during this period more than 10
-            projects of great value due to the Design Thinking process involved.
-          </p>
-          <p>
-            The focus was on achieving Social Impact and Sustainability through
-            the exploration of Space Articulation, Modular Systems and new
-            Technologies combined with Alternative Materials.
+            , jointly conceiving and developing projects with a focus on Social
+            Impact and Sustainability through the exploration of Space
+            Articulation, Modular Systems and new Technologies combined with
+            Alternative Materials.
           </p>
 
           <p>
@@ -88,7 +85,7 @@ const AboutPage = () => {
           <p>
             I decided that in order to help bridge these gaps I would dive into
             learning to code and become a Developer. By joining the Web
-            Development Bootcamp at Ironhak I had hands on experience in
+            Development Bootcamp at Ironhack I had hands-on experience in
             building real applications, becoming part of the amazing Community
             and learning a bunch of cool Tools on the way.{" "}
           </p>
@@ -122,8 +119,7 @@ const AboutPage = () => {
           <p>
             Last but not least, I love taking care of my house plants, reading a
             good book and engaging in interesting conversations, which I can
-            fortunately have either in Spanish, English and now in German (work
-            in progress).
+            have in Spanish, English and now in German (work in progress).
           </p>
           <h4>Let's get in touch.</h4>
           <p>
